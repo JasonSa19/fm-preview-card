@@ -1,9 +1,20 @@
-body {
-  background-color: $background-dark;
-  color: $light;
-  font-family: $primaryFont;
+html {
+  height: 100vh;
+  body {
+    background-color: $background-dark;
+    color: $light;
+    font-family: $primaryFont;
+    height: 100%;
 
-  button {
-    color: $primary;
+    #app {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      color: $primary;
+    }
   }
 }

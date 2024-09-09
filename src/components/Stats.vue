@@ -4,22 +4,36 @@ import { ref } from "vue";
 defineProps({
   hl: String,
   msg: String,
-  companycount: String,
-  templatescount: String,
-  queriescount: String,
+  statCountOne: String,
+  statWordingOne: String,
+  statCountTwo: String,
+  statWordingTwo: String,
+  statCountThree: String,
+  statWordingThree: String,
 });
 </script>
 
 <template>
-  <section>
+  <section
+    class="flex max-w-[80%] mx-auto my-auto justify-between bg-foreground-dark"
+  >
     <div class="txt-content">
       <h1>{{ hl }}</h1>
       <p>{{ msg }}</p>
 
       <div class="stat-counts">
-        <span>{{ companycount }}</span>
-        <span>{{ templatescount }}</span>
-        <span>{{ queriescount }}</span>
+        <div class="flex flex-col items-start">
+          <span>{{ statCountOne }}</span
+          ><span>{{ statWordingOne }}</span>
+        </div>
+        <div class="flex flex-col items-start">
+          <span>{{ statCountTwo }}</span
+          ><span>{{ statWordingTwo }}</span>
+        </div>
+        <div class="flex flex-col items-start">
+          <span>{{ statCountThree }}</span
+          ><span>{{ statWordingThree }}</span>
+        </div>
       </div>
     </div>
     <div class="image-content">
