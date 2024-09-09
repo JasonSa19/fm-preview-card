@@ -3,7 +3,7 @@ import Stats from "./components/Stats.vue";
 </script>
 
 <template>
-  <div class="bg-primary">
+  <div>
     <Stats />
   </div>
 </template>
