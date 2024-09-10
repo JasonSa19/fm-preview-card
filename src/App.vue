@@ -4,7 +4,7 @@ import Stats from "./components/Stats.vue";
 
 <template>
   <Stats
-    hl="Get insights that help your business grow."
+    :hl="'Get <strong>insights</strong> that help your business grow.'"
     msg="Discover the benefits of data analytics and make better decisions regarding revenue, customer experience and overall efficiency."
     statCountOne="10k+"
     statWordingOne="Companies"

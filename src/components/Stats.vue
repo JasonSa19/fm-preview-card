@@ -15,10 +15,10 @@ defineProps({
 
 <template>
   <section
-    class="flex max-w-[80%] mx-auto my-auto justify-between bg-foreground-dark rounded-xl"
+    class="stats flex max-w-[80%] mx-auto my-auto justify-between bg-foreground-dark rounded-xl"
   >
     <div class="p-24 txt-content basis-7/12">
-      <h1 class="mb-6">{{ hl }}</h1>
+      <h1 v-html="hl" class="mb-6"></h1>
       <p class="mb-24">{{ msg }}</p>
 
       <div class="flex justify-between stat-counts">
