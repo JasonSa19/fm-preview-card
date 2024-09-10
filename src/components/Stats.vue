@@ -15,7 +15,7 @@ defineProps({
 
 <template>
   <section
-    class="flex max-w-[80%] mx-auto my-auto justify-between bg-foreground-dark"
+    class="flex max-w-[80%] mx-auto my-auto justify-between bg-foreground-dark rounded-xl"
   >
     <div class="p-24 txt-content basis-7/12">
       <h1 class="mb-6">{{ hl }}</h1>
@@ -38,7 +38,7 @@ defineProps({
     </div>
     <div class="image-content basis-5/12">
       <img
-        class="object-cover w-full h-full"
+        class="object-cover w-full h-full rounded-r-xl"
         src="./../assets/img/header-image.jpg"
       />
     </div>
