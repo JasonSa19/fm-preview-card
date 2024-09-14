@@ -18,7 +18,7 @@ defineProps({
     class="stats flex max-w-[80%] mx-auto my-auto justify-between bg-foreground-dark rounded-xl"
   >
     <div class="p-24 txt-content basis-7/12">
-      <h1 v-html="hl" class="mb-6"></h1>
+      <h1 v-html="hl" class="mb-6 text-5xl font-semibold leading-snug"></h1>
       <p class="mb-24">{{ msg }}</p>
 
       <div class="flex justify-between stat-counts">
